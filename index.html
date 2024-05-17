@@ -13,7 +13,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             text-align: center;
         }
         .container {
@@ -49,6 +49,8 @@
             cursor: pointer;
             font-size: 14px;
             margin: 5px;
+            flex-grow: 1;
+            max-width: 30%;
         }
         .language-selector button:hover {
             background-color: #0056b3;
@@ -69,6 +71,7 @@
             .language-selector button {
                 font-size: 12px;
                 padding: 8px 12px;
+                max-width: 45%;
             }
         }
     </style>
